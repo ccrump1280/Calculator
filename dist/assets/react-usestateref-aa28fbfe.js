@@ -1,0 +1,1 @@
+import{r as f}from"./react-ebb264fd.js";var e=f,o=function(t){return typeof t=="function"},i=function(t){var u=e.useState(t),n=u[0],c=u[1],r=e.useRef(n),s=e.useCallback(function(a){r.current=o(a)?a(r.current):a,c(r.current)},[]);return[n,s,r]},p=i;export{p as d};
